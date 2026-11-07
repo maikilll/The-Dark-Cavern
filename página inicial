@@ -1,0 +1,15 @@
+<script>
+    // Script interativo para a página inicial
+    document.addEventListener("DOMContentLoaded", function() {
+        console.log("The Dark Cavern: Página inicial carregada com sucesso.");
+        
+        // Exemplo de uma saudação dinâmica ou aviso no console/ecrã
+        const visaoGeral = document.querySelector("h1");
+        if (visaoGeral) {
+            visaoGeral.style.cursor = "pointer";
+            visaoGeral.addEventListener("click", function() {
+                alert("Cuidado... Warkell está a observar cada passo teu nas sombras!");
+            });
+        }
+    });
+</script>
