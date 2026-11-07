@@ -1,4 +1,3 @@
-# The-Dark-Cavern
 <!DOCTYPE html>
 <html lang="pt">
 <head>
